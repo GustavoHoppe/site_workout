@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Workou | Carga Máxima</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo_index.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/calculadora/estilo_calc.css">
+    <link rel="stylesheet" href="css/calculadora/resposta_calc.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>
+            <img class="cabecalho__logo" src="img/logo_amarela.png" alt="Logo Workout">
+        </h1>
+        <ul class="cabecalho__lista">
+            <li class="cabecalho__item"><a href="index.html" class="cabecalho__link">Principal</a></li>
+            <li class="cabecalho__item"><a href="calc_imc.html" class="cabecalho__link">IMC</a></li>
+            <li class="cabecalho__item"><a href="calculadora_carga.html" class="cabecalho__link ativo">Carga Máxima</a></li>
+            <li class="cabecalho__item"><a href="fc-max.html" class="cabecalho__link">FC Máxima</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+
+            <h2 class="container__titulo">
+                Instrução:
+            </h2>
+             
+            <ol class="container__lista">
+                
+                <li class="container__lista__item"><span class="container__lista__estilo">1.</span> Selecione uma carga presumindo que irá conseguir fazer apenas 1 repetição com ela.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">2.</span> Faça o máximo de repetições completas(amplitude máxima) que conseguir.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">3.</span> Em seguida coloque abaixo a carga usada e a quantidade de repetições que foram executadas.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">4.</span> Use o botão Calcular e veja sua carga máxima.</li>
+             
+            </ol>
+            
+             <p>
+                <label class="container__label" for="txt_peso">Carga:</label>            
+                <input class="container__input" type="number" name="peso" id="txt_peso"> Kg
+            </p>
+            
+            <p>
+                <label class="container__label" for="txt_rep">Repetições:</label>
+                <input class="container__input" type="number" name="repeticoes" id="txt_rep"> reps.
+            </p>
+
+            <input id="botao__calcular" class="container__botao" type="button" value="Calcular">
+            
+            <div class="container__resposta">
+
+            </div>
+            
+            <divcontainer class="container__resposta2">
+
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">
+            Copyright <a class="rodape__link" href="https://www.instagram.com/gustavohoppeworkout/" target="_blank">&copy; Gustavo Hoppe Workout</a>
+        </p>
+    </footer>
+    <script src="script/script_calculadora.js"></script>
+</body>
+</html>

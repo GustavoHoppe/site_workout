@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+
+:root {
+
+    --cor1: #101114;
+    --cor2: #1B1D24;
+    --cor3: #1E2129;
+    --cor4: #22252E;
+    --cor5: #252933;
+    --cor6: #FFAD12;
+    --cor-fonte: #c2c2c2;
+    --fonte-titulo: 'Timmana', sans-serif; 
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.strong__titulo {
+
+    color: var(--cor6);
+}
+
+.span__texto {
+
+    color: var(--cor6);
+}
+
+.container__input {
+    border: none;
+    width: 5rem;
+    margin-bottom: 4rem;
+    background-color: #252933;
+    font-size: 1.3rem;
+    color: var(--cor-fonte);
+}
+
+.container__label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.container__botao {
+    padding: 0.5rem;
+    background-color: var(--cor5);
+    color: var(--cor6);
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid var(--cor6);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.2s;
+}
+
+

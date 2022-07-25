@@ -1,0 +1,23 @@
+.resposta__texto {
+
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.botao__resposta {
+
+    margin: 0 2rem 2rem 0;
+    
+}
+
+.resposta__strong {
+
+    color: var(--cor6);
+}
+
+@media screen and (max-width: 376px) {
+
+    .botao__resposta {
+        margin: 0 .5rem 2rem 0rem;
+    }
+}

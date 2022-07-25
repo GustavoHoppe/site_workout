@@ -1,0 +1,15 @@
+.container__localizacao {
+
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.localizacao__titulo {
+
+    font-family: var(--fonte-titulo);
+    color: var(--cor3);
+    font-size: 3rem;
+    padding: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}

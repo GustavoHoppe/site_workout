@@ -1,0 +1,91 @@
+.container__planos {
+    
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.container__planos__titulo {
+
+    font-family: var(--fonte-titulo);
+    color: var(--cor3);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.caixa__planos {
+
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__planos__card {
+
+    background: var(--cor2);
+    width: 40%;   
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 13px 3px rgba(5, 5, 5, 0.479)
+}
+
+.container__planos__card__titulo--black {
+    
+    font-family: var(--fonte-titulo);
+    color: var(--cor6);
+    font-size: 1.8rem;
+    border-radius: 10px;
+    border: 3px solid var(--cor6);
+    padding: 2rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    background: var(--cor1);
+    text-transform: uppercase;
+}
+
+.container__planos__card__titulo--workout {
+    
+    font-family: var(--fonte-titulo);
+    color: var(--cor1);
+    font-size: 1.8rem;
+    border-radius: 10px;
+    border: 3px solid var(--cor6);
+    padding: 2rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    background: var(--cor6);
+    text-transform: uppercase;
+}
+
+.container__planos__card__texto {
+    
+    margin-bottom: 1rem;
+    letter-spacing: .15rem;
+    line-height: 1.5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+.preco {
+
+    display: inline-block;
+    color: var(--cor6);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--cor6);
+}
+
+@media screen and (max-width:426px) {
+
+    .caixa__planos {
+
+        flex-direction: column;
+    }
+
+    .container__planos__card {
+
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+}

@@ -1,0 +1,153 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-fonte);
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif; 
+    background: var(--cor1);
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 10px;
+    border-left: 3px solid var(--cor6);
+    margin: 5rem 0;
+}
+
+.container__titulo {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--cor6);
+}
+
+.container__lista {
+    
+    margin-bottom: 2rem;
+    text-align: justify;
+    
+}
+
+.container__lista__item {
+
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.container__lista__estilo {
+    color: var(--cor6);
+}
+
+.container__input {
+    border: none;
+    width: 3rem;
+    margin-bottom: 4rem;
+    background-color: #252933;
+    font-size: 1.3rem;
+    color: var(--cor6);
+}
+
+.container__label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.container__botao {
+    padding: 0.5rem;
+    background-color: var(--cor5);
+    color: var(--cor6);
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid var(--cor6);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.2s;
+}
+
+.container__botao:hover {
+    color: #9c6a0d;
+    border-bottom: 2px solid #9c6a0d;
+}
+
+.resposta {
+    color: var(--cor6);
+}
+
+@media screen and (max-width:769px) {
+    
+    .cabecalho {
+        width: 100vw;
+        padding: 1rem 0;
+    }
+    
+    .cabecalho__titulo {
+        width: 90%;
+        font-size: 1.4rem;
+        
+    }
+
+    .container {
+        width: 90%;       
+    }
+
+    .container__label {
+        font-size: 1rem;
+    }
+
+    .rodape {
+        padding: 5rem 0;
+    }
+
+    .rodape__texto {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+
+    .cabecalho__titulo {
+        width: 90%;
+        font-size: 1.3rem;
+        padding: 2rem 0;
+        
+    }
+
+    .container {
+        
+        width: 90%;
+        padding: 2rem 0.8rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+
+    .cabecalho__titulo {
+        width: 90%;
+        font-size: 1.3rem;
+        padding: 2rem 0;
+        
+    }
+
+    .container {
+        
+        width: 90%;
+        padding: 2rem 0.8rem;
+    }
+}

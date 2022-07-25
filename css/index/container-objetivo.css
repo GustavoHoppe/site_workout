@@ -1,0 +1,61 @@
+.container__objetivo {
+
+    padding: 1rem;
+    text-align: center; 
+    background-image: url("../../img/objetivo_m.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 5rem;
+     
+}
+
+.container__objetivo__titulo {
+
+    font-family: var(--fonte-titulo);
+    padding: 1rem 1rem .1rem 1rem;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    border-bottom: 3px solid var(--cor6);
+    display: inline-block;
+    color: var(--cor6);
+    margin: 3rem 0;
+    text-transform: uppercase;
+}
+
+.caixa__texto__objetivo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container__objetivo__texto {
+
+    width: 700px;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    border-bottom: 3px solid var(--cor6);
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    line-height: 2rem;
+    letter-spacing: .2rem;   
+}
+
+.strong__objetivo {
+
+    color: var(--cor6);
+}
+
+@media screen and (max-width: 376px) {
+
+    .container__objetivo__texto {
+
+        font-size: 1rem;
+    }  
+}
+

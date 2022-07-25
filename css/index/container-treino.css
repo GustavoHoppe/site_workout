@@ -1,0 +1,135 @@
+.container__treinos {
+    
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.container__treinos__titulo {
+
+    font-family: var(--fonte-titulo);
+    color: var(--cor3);
+    font-size: 3rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.caixa__treinos {
+
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__treinos__card {
+
+    background: var(--cor2);
+    width: 30%;     
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 5px solid var(--cor6);
+    box-shadow: 0 0 13px 3px rgba(5, 5, 5, 0.479);
+}
+
+
+
+.container__treinos__card__titulo {
+    
+    font-family: var(--fonte-titulo);
+    color: var(--cor6);
+    font-size: 1.8rem;
+    border-radius: 10px;
+    padding: 2rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    background: var(--cor2);
+    text-transform: uppercase;
+}
+
+.musculacao__imagem {
+
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.musculacao__titulo {
+
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.musculacao__lista {
+
+    text-align: start;
+    padding: 1rem 2rem;
+}
+
+.musculacao__item {
+
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.calistenia__imagem {
+
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.calistenia__titulo {
+
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.calistenia__lista {
+
+    text-align: start;
+    padding: 1rem 2rem;
+}
+
+.calistenia__item {
+
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.funcional__imagem {
+
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.funcional__titulo {
+
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.funcional__lista {
+
+    text-align: start;
+    padding: 1rem 2rem;
+}
+
+.funcional__item {
+
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width:426px) {
+
+    .caixa__treinos {
+
+        flex-direction: column;
+    }
+
+    .container__treinos__card {
+
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Workout | IMC</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/estilo_index.css">
+    <link rel="stylesheet" href="css/imc/estilo_imc.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>
+            <img class="cabecalho__logo" src="img/logo_amarela.png" alt="Logo Workout">
+        </h1>
+        <ul class="cabecalho__lista">
+            <li class="cabecalho__item"><a href="index.html" class="cabecalho__link">Principal</a></li>
+            <li class="cabecalho__item"><a href="calc_imc.html" class="cabecalho__link ativo">IMC</a></li>
+            <li class="cabecalho__item"><a href="calculadora_carga.html" class="cabecalho__link">Carga Máxima</a></li>
+            <li class="cabecalho__item"><a href="fc-max.html" class="cabecalho__link">FC Máxima</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            
+            <h2 class="container__titulo">
+                Instrução:
+            </h2>
+             
+            <ol class="container__lista">
+                
+                <li class="container__lista__item"><span class="container__lista__estilo">1.</span> Insira seu peso no local solicitado.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">2.</span> Insira sua altura no local solicitado.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">3.</span> Em seguida clique no botao calcular para ver seu resultado.</li>
+            
+            </ol>
+            
+            <p>
+                <label class="container__label" for="txt_peso">Peso:</label>            
+                <input class="container__input" type="number" name="peso" id="txt_peso"> Kg
+            </p>
+            
+            <p>
+                <label class="container__label" for="txt_altura">Altura:</label>
+                <input class="container__input" type="number" name="altura" id="txt_altura"> m
+            </p>
+
+            <input class="container__botao" type="button" value="Calcular">
+            
+            <div class="container__resposta">
+
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">
+            Copyright <a class="rodape__link" href="https://www.instagram.com/gustavohoppeworkout/" target="_blank">&copy; Gustavo Hoppe Workout</a>
+        </p>
+    </footer>
+    <script src="script/script_imc.js"></script>
+</body>
+</html>
