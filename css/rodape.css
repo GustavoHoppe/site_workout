@@ -1,6 +1,6 @@
 .rodape {
     text-align: center;
-    padding: 5rem;
+    padding: 2rem;
     background-color: var(--cor1);
 }
 
@@ -8,12 +8,29 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     color: var(--cor-fonte);
+    margin-top: 2rem;
 }
 
 .rodape__link {
+    
     text-decoration: none;
     color: var(--cor6);
     transition: .2s;
+    margin: 1rem 1rem;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__insta {
+
+    margin-right: 1rem;
+}
+
+.logo__zap {
+
+    margin-right: 1rem;
 }
 
 .rodape__link:hover {
