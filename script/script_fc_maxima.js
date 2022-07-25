@@ -6,11 +6,11 @@ botaoCalc.onclick = function () {
     const idade = parseInt(document.querySelector('#txt_idade').value);
     
     const fcMax = 220 - idade;
-    const idade50 = fcMax * 50 / 100;
-    const idade60 = fcMax * 60 / 100;
-    const idade70 = fcMax * 70 / 100;
-    const idade80 = fcMax * 80 / 100;
-    const idade90 = fcMax * 90 / 100;
+    const idade50 = Math.round(fcMax * 50 / 100);
+    const idade60 = Math.round(fcMax * 60 / 100);
+    const idade70 = Math.round(fcMax * 70 / 100);
+    const idade80 = Math.round(fcMax * 80 / 100);
+    const idade90 = Math.round(fcMax * 90 / 100);
     
     res.innerHTML = `<p class="resposta__texto"><span class="container__lista__estilo">3.</span> Abaixo está o resultado de sua <strong class="strong__titulo">frequência cardíaca máxima</strong>, logo após estão informações de cada zona alvo. Escolha sua zona alvo de acordo com seu objetivo.</p>`;
     
